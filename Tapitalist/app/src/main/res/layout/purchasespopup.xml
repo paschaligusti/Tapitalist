@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    android:background="#499faf"
+    android:padding="5dp"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/store2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="casual"
+        android:gravity="center_vertical"
+        android:text="STORE"
+        android:textColor="#c4dfe6"
+        android:textSize="40sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/exit"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="X"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/store3"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/store2"
+        android:background="@drawable/storebuttons"
+        android:fontFamily="casual"
+        android:paddingLeft="25dp"
+        android:paddingTop="10dp"
+        android:text="Go To The Beach!"
+        android:textColor="#c4dfe6"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/store4"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_below="@+id/store3"
+        android:background="@drawable/storebuttons"
+        android:fontFamily="casual"
+        android:paddingTop="10dp"
+        android:paddingLeft="25dp"
+        android:text="Go Skiing!"
+        android:textColor="#c4dfe6"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/store5"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:layout_alignEnd="@+id/textView4"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_below="@+id/store4"
+        android:background="@drawable/storebuttons"
+        android:fontFamily="casual"
+        android:paddingTop="10dp"
+        android:paddingLeft="25dp"
+        android:text="Go To Paris!"
+        android:textColor="#c4dfe6"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/store6"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:layout_alignEnd="@+id/textView5"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignRight="@+id/textView5"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_below="@+id/store5"
+        android:background="@drawable/storebuttons"
+        android:fontFamily="casual"
+        android:paddingTop="10dp"
+        android:paddingLeft="25dp"
+        android:text="Boston University"
+        android:textColor="#c4dfe6"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/storebutton2"
+        android:layout_width="60dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/store3"
+        android:background="@drawable/storebuttons"
+        android:text="$10000"
+        android:textColor="#c4dfe6"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/storebutton3"
+        android:layout_width="60dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/storebutton2"
+        android:background="@drawable/storebuttons"
+        android:text="$150000"
+        android:textColor="#c4dfe6"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/storebutton4"
+        android:layout_width="60dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/storebutton3"
+        android:background="@drawable/storebuttons"
+        android:text="3000000"
+        android:textColor="#c4dfe6"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/storebutton5"
+        android:layout_width="60dp"
+        android:layout_height="55dp"
+        android:layout_alignBaseline="@+id/store6"
+        android:layout_alignBottom="@+id/store6"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/storebuttons"
+        android:text="$0"
+        android:textColor="#c4dfe6"
+        android:textSize="12sp" />
+
+</RelativeLayout>

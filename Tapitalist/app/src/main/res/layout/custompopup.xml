@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    android:background="#003b46"
+    android:padding="5dp"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="casual"
+        android:gravity="center_vertical"
+        android:text="UPGRADES"
+        android:textColor="#c4dfe6"
+        android:textSize="40sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/exit"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="X"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_below="@+id/textView2"
+        android:background="@drawable/menubutton"
+        android:fontFamily="casual"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:text="Olivia the Secretary"
+        android:textColor="#c4dfe6"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:background="@drawable/menubutton"
+        android:fontFamily="casual"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:text="Steven the Consultant"
+        android:textColor="#c4dfe6"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignEnd="@+id/textView4"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:background="@drawable/menubutton"
+        android:fontFamily="casual"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:text="Abby the Analyst"
+        android:textColor="#c4dfe6"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignEnd="@+id/textView5"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignRight="@+id/textView5"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_below="@+id/textView5"
+        android:background="@drawable/menubutton"
+        android:fontFamily="casual"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:text="Vijay the Accountant"
+        android:textColor="#c4dfe6"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/menubutton"
+        android:fontFamily="casual"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:text="Doug the Rich Uncle"
+        android:textColor="#c4dfe6"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/level_Pers"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:gravity="center"
+        android:text="Lvl"
+        android:textColor="#c4dfe6" />
+
+    <TextView
+        android:id="@+id/level_Widsom"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_above="@+id/textView5"
+        android:layout_alignEnd="@+id/level_Pers"
+        android:layout_alignRight="@+id/level_Pers"
+        android:layout_below="@+id/textView3"
+        android:gravity="center"
+        android:text="Lvl"
+        android:textColor="#c4dfe6" />
+
+    <TextView
+        android:id="@+id/level_Courage"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_above="@+id/textView6"
+        android:layout_alignEnd="@+id/level_Widsom"
+        android:layout_alignRight="@+id/level_Widsom"
+        android:layout_below="@+id/textView4"
+        android:gravity="center"
+        android:text="Lvl"
+        android:textColor="#c4dfe6" />
+
+    <TextView
+        android:id="@+id/level_Patience"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_above="@+id/textView7"
+        android:layout_alignLeft="@+id/level_Courage"
+        android:layout_alignStart="@+id/level_Courage"
+        android:layout_below="@+id/textView5"
+        android:gravity="center"
+        android:text="Lvl"
+        android:textColor="#c4dfe6" />
+
+    <TextView
+        android:id="@+id/level_Luck"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_alignEnd="@+id/level_Patience"
+        android:layout_alignRight="@+id/level_Patience"
+        android:layout_below="@+id/textView6"
+        android:gravity="center"
+        android:text="Lvl"
+        android:textColor="#c4dfe6" />
+
+    <TextView
+        android:id="@+id/desc1"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:paddingTop="30dp"
+        android:paddingLeft="10dp"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_alignTop="@+id/textView3"
+        android:text="Base Rate Increase: $0.7"
+        android:textColor="#66a5ad"
+        android:fontFamily="casual"
+        android:textSize="12sp"
+        />
+
+    <TextView
+        android:id="@+id/desc2"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:paddingTop="30dp"
+        android:paddingLeft="10dp"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:text="Base Rate Increase: $4"
+        android:textColor="#66a5ad"
+        android:fontFamily="casual"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/desc3"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:paddingTop="30dp"
+        android:paddingLeft="10dp"
+        android:layout_alignEnd="@+id/desc2"
+        android:layout_alignRight="@+id/desc2"
+        android:layout_below="@+id/textView4"
+        android:text="Base Rate Increase: $10"
+        android:textColor="#66a5ad"
+        android:fontFamily="casual"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/desc4"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:paddingTop="30dp"
+        android:paddingLeft="10dp"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_below="@+id/textView5"
+        android:text="Base Rate Increase: $40"
+        android:textColor="#66a5ad"
+        android:fontFamily="casual"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/desc5"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:paddingTop="30dp"
+        android:paddingLeft="10dp"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_below="@+id/textView6"
+        android:text="Base Rate Increase: $400"
+        android:textColor="#66a5ad"
+        android:fontFamily="casual"
+        android:textSize="12sp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3"
+        android:layout_below="@+id/textView2"
+        android:background="@drawable/menubutton"
+        android:text="5"
+        android:textColor="#c4dfe6"
+        android:textSize="12sp" />
+
+    <Button
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignEnd="@+id/textView4"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_alignTop="@+id/textView4"
+        android:background="@drawable/menubutton"
+        android:text="5"
+        android:textColor="#c4dfe6"
+        android:textSize="12sp"
+        android:id="@+id/button3"/>
+
+    <Button
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignEnd="@+id/textView5"
+        android:layout_alignRight="@+id/textView5"
+        android:layout_alignTop="@+id/textView5"
+        android:background="@drawable/menubutton"
+        android:text="5"
+        android:textColor="#c4dfe6"
+        android:textSize="12sp"
+        android:id="@+id/button4"/>
+
+    <Button
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignEnd="@+id/textView6"
+        android:layout_alignRight="@+id/textView6"
+        android:layout_alignTop="@+id/textView6"
+        android:background="@drawable/menubutton"
+        android:text="5"
+        android:textColor="#c4dfe6"
+        android:textSize="12sp"
+        android:id="@+id/button5"/>
+
+    <Button
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignEnd="@+id/textView7"
+        android:layout_alignRight="@+id/textView7"
+        android:layout_alignTop="@+id/textView7"
+        android:background="@drawable/menubutton"
+        android:text="5"
+        android:textColor="#c4dfe6"
+        android:textSize="12sp"
+        android:id="@+id/button6" />
+
+
+
+
+</RelativeLayout>
+
